@@ -5,8 +5,18 @@
         
         <h1 style="text-align: center; margin-bottom: 30px;">Join Global Change Bank</h1>
 
-        <form method="POST" action="#">
+        <!-- ============================================================================== -->
+        <!-- CAMBIO IMPORTANTE AQUI ->
+        <!-- El 'action' ahora apunta al punto de entrada de Laravel y la ruta de registro. -->
+        <!-- ============================================================================== -->
+        <form method="POST" action="index_laravel.php/register">
             
+            <!--
+                MAS ADELANTE, CUANDO INTEGREMOS EN LARAVEL, AGREGAREMOS:
+                @csrf 
+                Por ahora no la ponemos para evitar errores de PHP.
+            -->
+
             <!-- Campo de Nombre -->
             <div style="margin-bottom: 15px;">
                 <label for="name">Full Name</label>
@@ -19,13 +29,13 @@
                 <input id="email" type="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
             </div>
 
-            <!-- Campo de Contraseña -->
+            <!-- Campo de Contrasena -->
             <div style="margin-bottom: 15px;">
                 <label for="password">Password</label>
                 <input id="password" type="password" name="password" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
             </div>
 
-            <!-- Campo de Confirmar Contraseña -->
+            <!-- Campo de Confirmar Contrasena -->
             <div style="margin-bottom: 20px;">
                 <label for="password_confirmation">Confirm Password</label>
                 <input id="password_confirmation" type="password" name="password_confirmation" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
