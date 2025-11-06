@@ -1,24 +1,22 @@
-<?php 
-// Incluimos la cabecera que ya hemos creado y limpiado.
-include 'header.php'; 
-?>
-
-<!-- ============================================ -->
-<!-- INICIO: Contenido de la Página de Login -->
-<!-- ============================================ -->
+<?php include 'header.php'; ?>
 
 <main class="main-wrap" id="main">
     <div class="container" style="padding-top: 100px; padding-bottom: 100px; max-width: 500px;">
         
         <h1 style="text-align: center; margin-bottom: 30px;">Sign In</h1>
 
-        <!-- 
-            Este es el formulario que clonaremos.
-            Por ahora, el 'action' está vacío (#) porque aún no lo conectamos a Laravel.
-            Este es el único trozo que cambiaremos en la Fase 2.
-        -->
-        <form method="POST" action="#">
+        <!-- ============================================================================== -->
+        <!-- CAMBIO IMPORTANTE AQUÍ -->
+        <!-- El 'action' ahora apunta al punto de entrada de Laravel y la ruta de login. -->
+        <!-- ============================================================================== -->
+        <form method="POST" action="index_laravel.php/login">
             
+            <!--
+                MÁS ADELANTE, CUANDO INTEGREMOS EN LARAVEL, AÑADIREMOS LA LÍNEA MÁGICA:
+                @csrf 
+                Por ahora no la ponemos para evitar errores de PHP.
+            -->
+
             <!-- Campo de Email -->
             <div style="margin-bottom: 15px;">
                 <label for="email" style="display: block; margin-bottom: 5px;">Email Address</label>
@@ -44,11 +42,4 @@ include 'header.php';
     </div>
 </main>
 
-<!-- ============================================ -->
-<!-- FIN: Contenido de la Página de Login -->
-<!-- ============================================ -->
-
-<?php 
-// Incluimos el pie de página.
-include 'footer.php'; 
-?>
+<?php include 'footer.php'; ?>
