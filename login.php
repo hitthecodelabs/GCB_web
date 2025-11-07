@@ -6,55 +6,55 @@
             <div class="auth-layout">
                 <div class="auth-intro">
                     <span class="auth-intro__eyebrow">Global Change Bank</span>
-                    <h1 class="auth-intro__title">Inicia sesión y potencia tus proyectos de impacto</h1>
+                    <h1 class="auth-intro__title">Sign in and power your impact projects</h1>
                     <p class="auth-intro__lead">
-                        Gestiona alianzas, conecta con inversionistas responsables y mantén el control de tus
-                        iniciativas sociales desde un solo lugar.
+                        Manage partnerships, connect with responsible investors, and keep full control of your
+                        social initiatives from one place.
                     </p>
                     <ul class="auth-intro__list">
-                        <li>Acceso seguro a tableros de colaboración global.</li>
-                        <li>Seguimiento en tiempo real de fondos, métricas y comunidades.</li>
-                        <li>Soporte dedicado del equipo GCB a tus misiones de cambio.</li>
+                        <li>Secure access to global collaboration dashboards.</li>
+                        <li>Real-time tracking of funds, metrics, and communities.</li>
+                        <li>Dedicated GCB support for your mission of change.</li>
                     </ul>
                 </div>
 
                 <!-- ============================================================================== -->
-                <!-- CAMBIO IMPORTANTE AQUÍ -->
-                <!-- El 'action' ahora apunta al punto de entrada de Laravel y la ruta de login. -->
+                <!-- IMPORTANT CHANGE HERE -->
+                <!-- The 'action' now points to Laravel's entry point and the login route. -->
                 <!-- ============================================================================== -->
                 <div class="auth-card" aria-labelledby="authCardTitle">
                     <div class="auth-card__header">
-                        <h2 id="authCardTitle" class="auth-card__title">Ingresa a tu cuenta</h2>
-                        <p class="auth-card__subtitle">Bienvenido de vuelta a la comunidad financiera con propósito.</p>
+                        <h2 id="authCardTitle" class="auth-card__title">Sign in to your account</h2>
+                        <p class="auth-card__subtitle">Welcome back to the purpose-driven finance community.</p>
                     </div>
 
                     <form class="auth-card__form" method="POST" action="index_laravel.php/login">
 
                         <!--
-                            MÁS ADELANTE, CUANDO INTEGREMOS EN LARAVEL, AÑADIREMOS LA LÍNEA MÁGICA:
+                            LATER, WHEN WE INTEGRATE WITH LARAVEL, WE'LL ADD THE MAGIC LINE:
                             @csrf
-                            Por ahora no la ponemos para evitar errores de PHP.
+                            For now we skip it to avoid PHP errors.
                         -->
 
-                        <!-- Campo de Email -->
+                        <!-- Email Field -->
                         <div class="form-group">
-                            <label for="email">Correo electrónico</label>
+                            <label for="email">Email address</label>
                             <input id="email" type="email" name="email" required autofocus>
                         </div>
 
-                        <!-- Campo de Contraseña -->
+                        <!-- Password Field -->
                         <div class="form-group">
-                            <label for="password">Contraseña</label>
+                            <label for="password">Password</label>
                             <input id="password" type="password" name="password" required>
                         </div>
 
                         <button class="btn btn-primary auth-card__submit" type="submit">
-                            Iniciar sesión
+                            Sign In
                         </button>
                     </form>
 
                     <p class="auth-card__footer">
-                        ¿Aún no formas parte de GCB? <a href="/register.php">Crea tu cuenta</a>.
+                        Not part of GCB yet? <a href="/register.php">Create your account</a>.
                     </p>
                 </div>
             </div>
