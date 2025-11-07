@@ -8,9 +8,9 @@
     <!-- ============================================================================== -->
     <!-- SEO y Metadatos del Sitio (Esto deberías personalizarlo para GCB) -->
     <!-- ============================================================================== -->
-    <title>Global Change Bank</title>
-    <meta name="title" content="Global Change Bank" />
-    <meta name="description" content="Personal finance with a collective purpose" />
+    <title>Global Change Bank | Finance with Purpose</title>
+    <meta name="title" content="Global Change Bank | Finance with Purpose" />
+    <meta name="description" content="A non-profit financial platform of the Council of Global Change connecting public purpose and private capital." />
     <link rel="canonical" href="https://globalchangebank.org/" />
 
     <!-- Favicon -->
@@ -70,13 +70,13 @@
                         <div class="site-header__utility-content">
                             <nav aria-label="secondary" class="site-header__utility-nav">
                                 <ul>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">About GCB</a></li>
+                                    <li><a href="#">Contact the CGC Secretariat</a></li>
                                 </ul>
                             </nav>
                             <div class="site-header__utility-meta">
-                                <a href="#" class="site-header__utility-link">Rates</a>
-                                <span class="site-header__utility-routing">ABA/Routing #226078609</span>
+                                <a href="#" class="site-header__utility-link">News &amp; Updates</a>
+                                <span class="site-header__utility-routing">Global Collaboration ID: CGC-GCB-01</span>
                             </div>
                         </div>
                     </div>
@@ -115,11 +115,11 @@
                                             <div class="site-header__controls-wrap">
                                                 <!-- Lista de Navegación Principal -->
                                                 <ul class="mln__list">
-                                                    <li><a href="#">Save</a></li>
-                                                    <li><a href="#">Spend</a></li>
-                                                    <li><a href="#">Borrow</a></li>
-                                                    <li><a href="#">Transfer</a></li>
-                                                    <li><a href="#">Learn</a></li>
+                                                    <li><a href="#">Mission</a></li>
+                                                    <li><a href="#">Programs</a></li>
+                                                    <li><a href="#">Partnerships</a></li>
+                                                    <li><a href="#">Knowledge Hub</a></li>
+                                                    <li><a href="#">Compliance</a></li>
                                                 </ul>
 
                                                 <!-- Controles Desktop (Búsqueda, Join, Sign In) -->
