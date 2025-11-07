@@ -717,9 +717,15 @@ body.off-canvas-open {
 }
 
 .site-footer__cols {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.75rem 3rem;
+    align-items: flex-start;
+}
+
+.site-footer__nav-col {
+    flex: 1 1 180px;
+    min-width: 180px;
 }
 
 .site-footer__cols h3 {
@@ -874,9 +880,17 @@ form input:focus {
     .quick-links__wrap,
     .featured-content-block__card,
     .site-footer__main-top,
-    .site-footer__cols,
     .site-footer__disclosures {
         grid-template-columns: 1fr;
+    }
+
+    .site-footer__cols {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .site-footer__nav-col {
+        flex: 1 1 auto;
     }
 
     .card-carousel-block__wrap {
