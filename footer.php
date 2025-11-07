@@ -7,10 +7,10 @@
             <div class="site-footer__header">
                 <div class="container-fluid">
                     <ul>
-                        <li><a href="#" title="About">About</a></li>
-                        <li><a href="#" title="Contact Us">Contact Us</a></li>
-                        <li><a href="#" title="Rates">Rates</a></li>
-                        <li><a href="#">ABA/Routing #226078609</a></li>
+                        <li><a href="#" title="About GCB">About GCB</a></li>
+                        <li><a href="#" title="Partners &amp; Affiliations">Partners &amp; Affiliations</a></li>
+                        <li><a href="#" title="Mission Briefings">Mission Briefings</a></li>
+                        <li><a href="#">Global Collaboration ID: CGC-GCB-01</a></li>
                     </ul>
                 </div>
             </div>
@@ -20,10 +20,10 @@
                         <div class="site-footer__info">
                             <div class="site-footer__identification rich-text-area">
                                 <!-- Texto personalizado -->
-                                <p><strong>Global Change Bank</strong><br />Serving the people who serve the world<sup>&reg;</sup></p>
+                                <p><strong>Global Change Bank</strong><br />A Non-Profit Financial Platform of the Council of Global Change</p>
                             </div>
                             <div class="site-footer__app-links rich-text-area">
-                                <p>Download GCB’s Digital Banking app:</p>
+                                <p>Access GCB’s institutional tools:</p>
                                 <!-- Los enlaces a las tiendas de apps son externos, se dejan como están -->
                                 <a href="https://apps.apple.com/app/id1221944195" target="_blank" title="Download on the App Store">
                                     <!-- Ruta de imagen corregida -->
@@ -38,28 +38,28 @@
                         <nav class="site-footer__nav" aria-label="Footer">
                             <div class="site-footer__cols">
                                 <div class="site-footer__nav-col">
-                                    <h3>Featured Solutions</h3>
+                                    <h3>Strategic Pathways</h3>
                                     <ul>
-                                        <li><a href="#">Digital Banking</a></li>
-                                        <li><a href="#">Transfers</a></li>
-                                        <li><a href="#" title="Personal Loans">Personal Loans</a></li>
-                                        <li><a href="#" title="Credit Cards">Credit Cards</a></li>
+                                        <li><a href="#">Institutional Programs</a></li>
+                                        <li><a href="#">Capital Facilitation</a></li>
+                                        <li><a href="#" title="Advisory Circles">Advisory Circles</a></li>
+                                        <li><a href="#" title="Impact Reporting">Impact Reporting</a></li>
                                     </ul>
                                 </div>
                                 <div class="site-footer__nav-col">
-                                    <h3>Helpful Resources</h3>
+                                    <h3>Knowledge &amp; Resources</h3>
                                     <ul>
-                                        <li><a href="#" title="Help Center">Help Center</a></li>
-                                        <li><a href="#" title="Fees & Service Charges">Fees & Service Charges</a></li>
-                                        <li><a href="#" title="Financial Wellness">Financial Wellness</a></li>
+                                        <li><a href="#" title="Mission Briefings">Mission Briefings</a></li>
+                                        <li><a href="#" title="Compliance Frameworks">Compliance Frameworks</a></li>
+                                        <li><a href="#" title="Research Library">Research Library</a></li>
                                     </ul>
                                 </div>
                                 <div class="site-footer__nav-col">
-                                    <h3>Membership Details</h3>
+                                    <h3>Participation</h3>
                                     <ul>
-                                        <li><a href="#">Eligibility</a></li>
-                                        <li><a href="#">Member Benefits</a></li>
-                                        <li><a href="#" title="Agreements & Disclosures">Agreements & Disclosures</a></li>
+                                        <li><a href="#">Eligibility Criteria</a></li>
+                                        <li><a href="#">Partner Onboarding</a></li>
+                                        <li><a href="#" title="Agreements & Disclosures">Agreements &amp; Disclosures</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -70,19 +70,24 @@
                             <div class="site-footer__disclosure-group-col rich-text-area order-lg-2">
                                 <div class="site-footer__disclosure-group">
                                     <!-- Ruta de imagen corregida -->
-                                    <img src="/assets/gcb_theme/images/equal_opportunity.svg" alt="Equal Housing Lender">
-                                    <p class="meta">Equal Housing Lender<br />NMLS Number: 456916</p>
+                                    <img src="/assets/gcb_theme/images/equal_opportunity.svg" alt="Global compliance icon">
+                                    <p class="meta">Committed to AML, CTF, and sanctions compliance standards.</p>
                                 </div>
                                 <div class="site-footer__disclosure-group">
                                     <!-- Ruta de imagen corregida -->
-                                    <img src="/assets/gcb_theme/images/ncua_new.svg" alt="NCUA Insured">
-                                    <p class="meta">Federally insured by NCUA.</p>
+                                    <img src="/assets/gcb_theme/images/ncua_new.svg" alt="Education and institutional use icon">
+                                    <p class="meta">Educational and institutional programs delivered with regulated partners.</p>
                                 </div>
                             </div>
                             <div class="site-footer__disclosure-text-col rich-text-area">
                                 <!-- Texto personalizado -->
-                                <p class="meta">All monetary amounts are in US dollars (USD) unless otherwise noted.</p>
-                                <p class="meta">&copy; <?php echo date('Y'); ?> Global Change Bank. All rights reserved.</p>
+                                <p class="meta">Global Change Bank (GCB) is a non-profit organization working within the framework of the Council of Global Change.</p>
+                                <p class="meta">GCB does not provide financial, legal, or investment advice and does not offer or solicit banking services.</p>
+                                <p class="meta">Any accounts, cards, or payment features described are issued or operated by regulated partner banks or fintech providers under their respective licenses.</p>
+                                <p class="meta">Participation in GCB programs is subject to partner-bank approval and applicable laws.</p>
+                                <p class="meta">GCB adheres to international standards on anti-money laundering (AML), counter-terrorism financing (CTF), and sanctions compliance.</p>
+                                <p class="meta">All information provided is for educational and institutional purposes only.</p>
+                                <p class="meta">&copy; 2025 Global Change Bank &middot; All Rights Reserved &middot; A Non-Profit Initiative of the Council of Global Change.</p>
                             </div>
                         </div>
                     </div>
