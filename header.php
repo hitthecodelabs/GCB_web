@@ -70,8 +70,8 @@
                         <div class="site-header__utility-content">
                             <nav aria-label="secondary" class="site-header__utility-nav">
                                 <ul>
-                                    <li><a href="#">About GCB</a></li>
-                                    <li><a href="#">Contact the CGC Secretariat</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="site-header__utility-meta">
@@ -92,13 +92,13 @@
                                     <span class="toggle-hamburger__wrapper">
                                         <span class="toggle-hamburger__bun"></span>
                                         <span class="toggle-hamburger__bun"></span>
-                                        <span class="toggle-hamburger__bun"></span>
+                                        <span class="toggleKnowledge-hamburger__bun"></span>
                                     </span>
                                 </button>
 
                                 <!-- Logo Principal -->
                                 <a class="site-header__logo" href="/">
-                                    <img src="/assets/gcb_theme/images/gcb_logo_principal.svg" alt="Global Change Bank Logo" width="153" height="40" />
+                                    <img src="/assets/gcb_theme/images/gcb_logo.svg" alt="Global Change Bank Logo" width="153" height="40" />
                                 </a>
                             </div>
 
@@ -108,7 +108,7 @@
                                     <div class="l-off-canvas__helper">
                                         <nav class="main-nav mln mln--navbar mln--navbar-slide-over" data-mln-breakpoint="1150" aria-label="primary">
                                             <a class="site-header__logo" href="/">
-                                                <img src="/assets/gcb_theme/images/gcb_logo_principal.svg" alt="Global Change Bank Logo" width="153" height="40" />
+                                                <img src="/assets/gcb_theme/images/gcb_logo.svg" alt="Global Change Bank Logo" width="153" height="40" />
                                                 <span class="visually-hidden">Global Change Bank</span>
                                             </a>
 
@@ -118,7 +118,7 @@
                                                     <li><a href="#">Mission</a></li>
                                                     <li><a href="#">Programs</a></li>
                                                     <li><a href="#">Partnerships</a></li>
-                                                    <li><a href="#">Knowledge Hub</a></li>
+                                                    <li><a href="#">Knowledge</a></li>
                                                     <li><a href="#">Compliance</a></li>
                                                 </ul>
 
