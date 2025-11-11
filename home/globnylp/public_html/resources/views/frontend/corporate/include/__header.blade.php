@@ -26,12 +26,12 @@
             <div class="container-fluid">
                 <div class="site-header__main-inner">
                     
-                    <!-- 1) Logo a la izquierda -->
-                    <!--<div class="site-header__brand">-->
-                    <!--  <a class="site-header__logo" href="{{ route('home') }}">-->
-                    <!--    <img src="{{ asset('gcb_theme/images/logo_cgc.svg') }}" alt="Global Change Bank Logo" width="153" height="40">-->
-                    <!--  </a>-->
-                    <!--</div>-->
+                    <!-- 1) Logo a la izquierda (mas visible en mobiloe) -->
+                    <div class="site-header__brand">
+                      <a class="site-header__logo" href="{{ route('home') }}">
+                        <img src="{{ asset('gcb_theme/images/logo_cgc.svg') }}" alt="Global Change Bank Logo" width="153" height="40">
+                      </a>
+                    </div>
                     
                     <!-- 2) Navegación (centro) -->
                     <div class="site-header__navigation">
@@ -61,10 +61,6 @@
                         </div>
                             
                           <nav class="main-nav" aria-label="primary">
-                            <!--<a class="site-header__logo" href="{{ route('home') }}">-->
-                            <!--  <img src="{{ asset('gcb_theme/images/logo_cgc.svg') }}" alt="Global Change Bank Logo" width="153" height="40">-->
-                            <!--  <span class="visually-hidden">Global Change Bank</span>-->
-                            <!--</a>-->
                     
                             <div class="site-header__controls-wrap">
                               <!-- Menu principal -->
@@ -102,12 +98,9 @@
                     </div>
                     
                     <!-- 3) Botón hamburguesa (móvil) -->
-                    <button
-                      class="toggle-hamburger js-offcanvas-toggle"
-                      type="button"
-                      aria-expanded="false"
-                      aria-controls="offCanvasArea"
-                      aria-label="Abrir menú">
+                    <button class="toggle-off-canvas toggle-hamburger js-offcanvas-toggle"
+                            type="button" aria-expanded="false"
+                            aria-controls="offCanvasArea" aria-label="Abrir menú">
                       <span class="toggle-hamburger__wrapper" aria-hidden="true">
                         <span class="toggle-hamburger__bun"></span>
                         <span class="toggle-hamburger__bun"></span>
