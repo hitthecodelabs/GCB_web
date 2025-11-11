@@ -1534,26 +1534,11 @@ form input:focus {
 
 /* ===== Override loader (overlay + 3 puntos) ===== */
 
-/* Asegura que el loader cubra toda la vista y quede por encima del header */
-#preloader,
-.page-loader,
-.loading-overlay,
-.gcb-loading {
-  position: fixed !important;
-  inset: 0 !important;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  z-index: 9999 !important;
-}
-
 /* color de fondo del overlay */
 #preloader,
 .page-loader,
 .loading-overlay,
-.gcb-loading {
+.gcb-loading { 
   background:#0f172a !important;     /* cambia aquí el fondo */
 }
 
@@ -1783,17 +1768,3 @@ body.off-canvas-open .off-canvas-close-btn .toggle-hamburger__bun:nth-child(3){
 @media (max-width: 1149.98px){
   header.site-header .site-header__off-canvas{
     left: auto !important;
-    right: 0 !important;
-    transform: translateX(100%) !important; /* cerrado */
-  }
-  header.site-header .site-header__off-canvas.is-open{
-    transform: translateX(0) !important;    /* abierto */
-  }
-}
-
-/* --- Pilas aseguradas para off-canvas --- */
-.site-header{ z-index: 3000 !important; }            /* el header crea el contexto alto */
-.offcanvas-overlay{ z-index: 2900 !important; }      /* la pared gris debajo del panel */
-.site-header__off-canvas{ z-index: 3100 !important; }/* el panel arriba de todo */
-.l-off-canvas-overlay{ display:none !important; pointer-events:none !important; } /* mata overlay viejo */
-
